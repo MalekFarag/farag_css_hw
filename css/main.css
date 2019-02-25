@@ -129,3 +129,19 @@ p{
 	bottom: 1px;
 	box-shadow: 0 6px 20px 0 green;
 }
+
+.slide{
+	animation-name: slide;
+	animation-duration: .9s;	
+	animation-timing-function: ease;	
+}
+
+@keyframes slide{
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}		
+}

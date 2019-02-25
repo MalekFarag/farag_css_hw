@@ -11,3 +11,9 @@
 
 //console message!
 console.log('JavaScript file is linked.');
+
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    document.getElementById('imgSlide').className = 'slide';
+  }, 3000);
+}, false);
