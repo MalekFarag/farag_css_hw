@@ -84,17 +84,48 @@ p{
 
 #show{
 	display: flex;
+	height: 550px;
+	margin: 0 auto;
+	justify-content: space-around;
 }
 
 #show img{
 	padding: 5px;
+	height: 250px;
+
+	transition: all .2s ease;
 }
 
 #show img:hover{
-	flex-grow: .5;
+	height: 350px;
+
 }
 
 #toronto{
 	margin-top: 50px;
 	margin-bottom: 10px;
+}
+
+#button p{
+	font-size: 16px;
+	padding-left: 16px;
+	padding-top: 16px;
+
+}
+
+#button{
+	background-color: #1ED760;
+	border-radius: 25px;
+	width: 125px;
+	height: 50px;
+	position: relative;
+	left: 525px;
+	margin-top: 30px;
+
+	transition: all .2s ease;
+}
+
+#button:hover{
+	bottom: 1px;
+	box-shadow: 0 6px 20px 0 green;
 }
