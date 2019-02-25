@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden{
+	display: none;
+}
+
+body{
+	background-color: #181818;
+	font-family: 'Lato', sans-serif;
+}
+
+h2{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 36px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+p{
+	color: #ffffff;
+}
+
+#siteContainer{
+	margin: 0 auto;
+	width: 1150px;
+}
+
+#about{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#move p{
+	position: relative;
+	left: 555px;
+	margin-bottom: 5px;
+}
+
+#move img{
+	position: relative;
+	left: 357px;
+}
+
+#bio{
+	margin-left: 30px;
+}
+
+#bio h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#bio p{
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#about img{
+	height: 355px;
+}
+
+#albums img{
+	width: 550px;
+	padding: 3px;
+	transition: all .3s ease;
+}
+
+#albums img:hover{
+	opacity: .5;
+}
+
+#albums h2{
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+
+#albums #wrap{
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+#show{
+	display: flex;
+}
+
+#show img{
+	padding: 5px;
+}
+
+#show img:hover{
+	flex-grow: .5;
+}
+
+#toronto{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
